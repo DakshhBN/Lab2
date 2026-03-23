@@ -3,7 +3,7 @@ pipeline {
 
     tools {
         gradle 'gradle'
-        JDK 'jdk'  
+        jdk 'JDK'  
     }
     stages {
         stage('Checkout') {
