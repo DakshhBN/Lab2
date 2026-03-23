@@ -32,8 +32,7 @@ mainClassName = 'App'
 
 
 
-
 task display{
 doLast{
-println 'DevOps Lab Internals'
+println 'DevOps Class'
 }}
