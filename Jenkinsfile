@@ -20,13 +20,13 @@ pipeline {
           
           stage('Test'){
           steps{
-          sh 'gradle run'
+          sh 'gradle test'
           }}
           
           stage('Run Application')
          {
          steps{
-         sh 'gradle display'
+         sh 'gradle run'
          }}
 }
  post {
