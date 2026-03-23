@@ -20,7 +20,7 @@ pipeline {
           
           stage('Test'){
           steps{
-          sh 'gradle test'
+          sh 'gradle run'
           }}
           
           stage('Run Application')
